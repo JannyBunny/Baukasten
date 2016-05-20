@@ -2,8 +2,8 @@ import java.util.ArrayList;
 /**
  * Beschreiben Sie hier die Klasse Spielzeugkiste.
  * 
- * @author (Ihr Name) 
- * @version (eine Versionsnummer oder ein Datum)
+ * @author Jan-René Grünhagen 
+ * @version 20.05.2016
  */
 public class Spielzeugkiste
 {
