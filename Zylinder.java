@@ -2,8 +2,8 @@
 /**
  * Beschreiben Sie hier die Klasse Zylinder.
  * 
- * @author (Ihr Name) 
- * @version (eine Versionsnummer oder ein Datum)
+ * @author Jan-René Grünhagen 
+ * @version 20.05.2016
  */
 public class Zylinder extends Baukloetze
 {
@@ -34,9 +34,10 @@ public class Zylinder extends Baukloetze
      */
     public double gibGewicht()
     {
-        return volumenInCm3()*super.gibHolz();    
+        return volumenInCm3()*gibHolz();    
     }
-     /**
+     
+    /**
       * gibt info zum Klotz aus
       */
     public void gibInfo()

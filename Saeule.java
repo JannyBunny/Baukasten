@@ -2,8 +2,8 @@
 /**
  * Beschreiben Sie hier die Klasse Saeule.
  * 
- * @author (Ihr Name) 
- * @version (eine Versionsnummer oder ein Datum)
+ * @author Jan-René Grünhagen 
+ * @version 20.05.2016
  */
 public class Saeule extends Baukloetze
 {
@@ -33,14 +33,14 @@ public class Saeule extends Baukloetze
      */
     public double gibGewicht()
     {
-        return volumenInCm3()*super.gibHolz();    
+        return volumenInCm3()*gibHolz();    
     }
      /**
       * gibt info zum Klotz aus
       */
     public void gibInfo()
     {
-        System.out.println("\n Bauklotz: \t\tQuader \n Länge: \t\t"+seitenlaenge1+"\n Länge2: \t\t"+seitenlaenge1+"\n Höhe: \t\t\t"
+        System.out.println("\n Bauklotz: \t\tQuader \n flaeche: \t\t"+grundflaeche+"\n Höhe: \t\t\t"
         +hoehe+ "\n Volumen in cm³: \t"+volumenInCm3()+"\n Gewicht: \t\t"+gibGewicht());
     }
 }
