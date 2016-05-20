@@ -19,6 +19,9 @@ public class Spielzeugkiste
         gesamtgewicht=0;
     }
 
+    /** Gibt alle aus
+     * 
+     */
     public void gibAlle()
     {
         for (Baukloetze klotz : inhalt) {
@@ -26,6 +29,9 @@ public class Spielzeugkiste
         }
     }
     
+    /**
+     * Gibt das Gewicht zurück
+     */
     public void gibGewicht()
     {
         gesamtgewicht=0;
@@ -35,12 +41,20 @@ public class Spielzeugkiste
         System.out.println(gesamtgewicht);
     }
     
+    /**
+     * fügt einen bauklotz hinzu
+     * @param klotz der entsprechende klotz
+     */
     public void hinzufuegen(Baukloetze klotz)
     {
         inhalt.add(klotz);
     }
     
-    public void entfernen(int position)
+    /**
+     * entfernt einen Bauklotz
+     * @param position die Position
+     */
+       public void entfernen(int position)
     {
         inhalt.remove(position);
     }

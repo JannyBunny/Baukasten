@@ -19,17 +19,26 @@ public class Quader extends Baukloetze
        this.breite = breite;
        this.hoehe = hoehe;
     }
-
+ 
+    /**
+     * Rückgabe des Volumens
+     * @return volumen in cm³
+     */
     public double volumenInCm3()
     {
         return laenge*breite*hoehe;
     }
-
+    /**
+     * Gibt das gewicht
+     * @return das Gewicht
+     */
     public double gibGewicht()
     {
         return volumenInCm3()*super.gibHolz();    
     }
-    
+     /**
+      * gibt info zum Klotz aus
+      */
     public void gibInfo()
     {
         System.out.println("\n Bauklotz: \t\tQuader \n Länge: \t\t"+laenge+"\n Breite: \t\t"+breite+"\n Höhe: \t\t\t"
