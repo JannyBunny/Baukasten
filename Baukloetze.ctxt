@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Baukloetze()
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Baukloetze\r\n
+comment1.params=
+comment1.target=double\ gibGewicht()
+comment2.params=
+comment2.target=double\ gibHolz()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=laenge\ breite\ hoehe
+comment0.target=Quader(double,\ double,\ double)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Quader\r\n
+comment1.params=
+comment1.target=double\ volumenInCm3()
+comment2.params=
+comment2.target=double\ gibGewicht()
+comment3.params=
+comment3.target=void\ gibInfo()
+numComments=4

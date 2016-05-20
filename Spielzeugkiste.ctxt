@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Spielzeugkiste()
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Spielzeugkiste\r\n
+comment1.params=
+comment1.target=void\ gibAlle()
+comment2.params=
+comment2.target=void\ gibGewicht()
+comment3.params=klotz
+comment3.target=void\ hinzufuegen(Baukloetze)
+comment4.params=position
+comment4.target=void\ entfernen(int)
+numComments=5

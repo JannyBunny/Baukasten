@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=seitenlaenge1\ seitenlaenge2\ hoehe
+comment0.target=Saeule(double,\ double,\ double)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Saeule\r\n
+comment1.params=
+comment1.target=double\ volumenInCm3()
+comment2.params=
+comment2.target=double\ gibGewicht()
+numComments=3

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=laenge\ breite\ hoehe
+comment0.target=Pyramide(double,\ double,\ double)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Pyramiede\r\n
+comment1.params=
+comment1.target=double\ volumenInCm3()
+comment2.params=
+comment2.target=double\ gibGewicht()
+numComments=3
