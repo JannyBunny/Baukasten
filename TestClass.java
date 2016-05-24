@@ -14,7 +14,7 @@ import org.junit.Test;
 public class TestClass
 {
     private Spielzeugkiste spielzeu1;
-    private Baukloetze baukloet1;
+    //     private Baukloetze baukloet1;
     private Zylinder zylinder1;
     private Saeule saeule1;
     private Pyramide pyramide1;
@@ -64,7 +64,7 @@ public class TestClass
     public void setUp()
     {
         spielzeu1 = new Spielzeugkiste();
-        baukloet1 = new Baukloetze();
+        //baukloet1 = new Baukloetze();
         zylinder1 = new Zylinder(2, 3);
         saeule1 = new Saeule(2, 2, 4);
         pyramide1 = new Pyramide(2, 2, 3);

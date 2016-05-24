@@ -5,7 +5,7 @@
  * @author Jan-René Grünhagen 
  * @version 20.05.2016
  */
-public class Baukloetze  
+public abstract class Baukloetze  
 {
     private double gewicht;
     private final double holz = 0.8;

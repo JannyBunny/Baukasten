@@ -7,8 +7,8 @@
  */
 public class Saeule extends Baukloetze
 {
-    double grundflaeche;
-    double hoehe;
+    private double grundflaeche;
+    private double hoehe;
     /**
      * Konstruktor für Objekte der Klasse Saeule
      */

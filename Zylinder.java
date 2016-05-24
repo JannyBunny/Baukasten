@@ -7,8 +7,8 @@
  */
 public class Zylinder extends Baukloetze
 {
-    double radius;
-    double hoehe;
+    private double radius;
+    private double hoehe;
 
     /**
      * Konstruktor für Objekte der Klasse Zylinder

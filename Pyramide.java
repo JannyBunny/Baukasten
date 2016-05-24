@@ -7,8 +7,8 @@
  */
 public class Pyramide extends Baukloetze
 {
-    double grundflaeche;
-    double hoehe;
+    private double grundflaeche;
+    private double hoehe;
     
     /**
      * Konstruktor für Objekte der Klasse Pyramiede
