@@ -26,7 +26,7 @@ public class Spielzeugkiste
     public void gibAlle()
     {
         for (Baukloetze klotz : inhalt) {
-            System.out.println(klotz.gibGewicht());
+            System.out.println(klotz.gibInfo());
         }
     }
     

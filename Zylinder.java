@@ -40,9 +40,11 @@ public class Zylinder extends Baukloetze
     /**
       * gibt info zum Klotz aus
       */
-    public void gibInfo()
+    public Object gibInfo()
     {
         System.out.println("\n Bauklotz: \t\tZylinder \n Radius: \t\t"+radius+"\n Höhe: \t\t\t"
         +hoehe+ "\n Volumen in cm³: \t"+volumenInCm3()+"\n Gewicht: \t\t"+gibGewicht());
+        return "\n Bauklotz: \t\tZylinder \n Radius: \t\t"+radius+"\n Höhe: \t\t\t"
+        +hoehe+ "\n Volumen in cm³: \t"+volumenInCm3()+"\n Gewicht: \t\t"+gibGewicht();
     }
 }

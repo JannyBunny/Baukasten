@@ -39,10 +39,10 @@ public class Quader extends Baukloetze
      /**
       * gibt info zum Klotz aus
       */
-    public void gibInfo()
+    public Object gibInfo()
     {
-        System.out.println("\n Bauklotz: \t\tQuader \n Länge: \t\t"+laenge+"\n Breite: \t\t"+breite+"\n Höhe: \t\t\t"
-        +hoehe+ "\n Volumen in cm³: \t"+volumenInCm3()+"\n Gewicht: \t\t"+gibGewicht());
+        return "\n Bauklotz: \t\tQuader \n Länge: \t\t"+laenge+"\n Breite: \t\t"+breite+"\n Höhe: \t\t\t"
+        +hoehe+ "\n Volumen in cm³: \t"+volumenInCm3()+"\n Gewicht: \t\t"+gibGewicht();
     }
     
 }

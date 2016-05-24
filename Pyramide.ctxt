@@ -9,6 +9,6 @@ comment2.params=
 comment2.target=double\ gibGewicht()
 comment2.text=\r\n\ Gibt\ das\ gewicht\r\n\ @return\ das\ Gewicht\r\n
 comment3.params=
-comment3.target=void\ gibInfo()
+comment3.target=java.lang.Object\ gibInfo()
 comment3.text=\r\n\ gibt\ info\ zum\ Klotz\ aus\r\n
 numComments=4

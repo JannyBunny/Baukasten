@@ -8,6 +8,7 @@
 public abstract class Baukloetze  
 {
     private double gewicht;
+    private Object info;
     private final double holz = 0.8;
     /**
      * Konstruktor für Objekte der Klasse Baukloetze
@@ -24,6 +25,15 @@ public abstract class Baukloetze
     public double gibGewicht()
     {
         return gewicht;
+    }
+    
+    /**
+     * Gibt die Info zurück 
+     * @return Infos über den Bauklotz.
+     */
+    public Object gibInfo()
+    {
+        return info;
     }
     
     /**

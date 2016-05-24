@@ -39,9 +39,9 @@ public class Pyramide extends Baukloetze
      /**
       * gibt info zum Klotz aus
       */
-    public void gibInfo()
+    public Object gibInfo()
     {
-        System.out.println("\n Bauklotz: \t\tQuader \n Fläche: \t\t"+grundflaeche+"\n Höhe: \t\t\t"
-        +hoehe+ "\n Volumen in cm³: \t"+volumenInCm3()+"\n Gewicht: \t\t"+gibGewicht());
+       return "\n Bauklotz: \t\tQuader \n Fläche: \t\t"+grundflaeche+"\n Höhe: \t\t\t"
+        +hoehe+ "\n Volumen in cm³: \t"+volumenInCm3()+"\n Gewicht: \t\t"+gibGewicht();
     }
 }
