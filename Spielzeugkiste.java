@@ -17,7 +17,7 @@ public class Spielzeugkiste
     public Spielzeugkiste()
     {
         inhalt=new ArrayList();
-        gesamtgewicht=0;
+        //gesamtgewicht=0;
     }
 
     /** Gibt alle aus
@@ -27,6 +27,7 @@ public class Spielzeugkiste
     {
         for (Baukloetze klotz : inhalt) {
             System.out.println(klotz.gibInfo());
+//             System.out.println(klotz);
         }
     }
     

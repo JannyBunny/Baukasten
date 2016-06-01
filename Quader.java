@@ -28,14 +28,14 @@ public class Quader extends Baukloetze
     {
         return laenge*breite*hoehe;
     }
-    /**
-     * Gibt das gewicht
-     * @return das Gewicht
-     */
-    public double gibGewicht()
-    {
-        return volumenInCm3()*gibHolz();    
-    }
+//     /**
+//      * Gibt das gewicht
+//      * @return das Gewicht
+//      */
+//     public double gibGewicht()
+//     {
+//         return volumenInCm3()*gibHolz();    
+//     }
      /**
       * gibt info zum Klotz aus
       */

@@ -27,20 +27,20 @@ public class Saeule extends Baukloetze
         return grundflaeche*hoehe;
     }
 
-    /**
-     * Gibt das gewicht
-     * @return das Gewicht
-     */
-    public double gibGewicht()
-    {
-        return volumenInCm3()*gibHolz();    
-    }
+//     /**
+//      * Gibt das gewicht
+//      * @return das Gewicht
+//      */
+//     public double gibGewicht()
+//     {
+//         return volumenInCm3()*gibHolz();    
+//     }
      /**
       * gibt info zum Klotz aus
       */
     public Object gibInfo()
     {
-        return "\n Bauklotz: \t\tQuader \n flaeche: \t\t"+grundflaeche+"\n Höhe: \t\t\t"
+        return "\n Bauklotz: \t\tSäule \n flaeche: \t\t"+grundflaeche+"\n Höhe: \t\t\t"
         +hoehe+ "\n Volumen in cm³: \t"+volumenInCm3()+"\n Gewicht: \t\t"+gibGewicht();
     }
 }

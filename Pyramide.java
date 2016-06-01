@@ -28,20 +28,20 @@ public class Pyramide extends Baukloetze
     {
         return (grundflaeche*hoehe)/3;
     }
-    /**
-     * Gibt das gewicht
-     * @return das Gewicht
-     */
-    public double gibGewicht()
-    {
-        return volumenInCm3()*gibHolz();    
-    }
+//     /**
+//      * Gibt das gewicht
+//      * @return das Gewicht
+//      */
+//     public double gibGewicht()
+//     {
+//         return volumenInCm3()*gibHolz();    
+//     }
      /**
       * gibt info zum Klotz aus
       */
     public Object gibInfo()
     {
-       return "\n Bauklotz: \t\tQuader \n Fläche: \t\t"+grundflaeche+"\n Höhe: \t\t\t"
+       return "\n "+super.toString()+": \t\tPyramide \n Fläche: \t\t"+grundflaeche+"\n Höhe: \t\t\t"
         +hoehe+ "\n Volumen in cm³: \t"+volumenInCm3()+"\n Gewicht: \t\t"+gibGewicht();
     }
 }

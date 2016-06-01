@@ -28,22 +28,20 @@ public class Zylinder extends Baukloetze
         return Math.PI*(radius*radius)*hoehe;
     }
     
-    /**
-     * Gibt das gewicht
-     * @return das Gewicht
-     */
-    public double gibGewicht()
-    {
-        return volumenInCm3()*gibHolz();    
-    }
+//     /**
+//      * Gibt das gewicht
+//      * @return das Gewicht
+//      */
+//     public double gibGewicht()
+//     {
+//         return volumenInCm3()*gibHolz();    
+//     }
      
     /**
       * gibt info zum Klotz aus
       */
     public Object gibInfo()
     {
-        System.out.println("\n Bauklotz: \t\tZylinder \n Radius: \t\t"+radius+"\n Höhe: \t\t\t"
-        +hoehe+ "\n Volumen in cm³: \t"+volumenInCm3()+"\n Gewicht: \t\t"+gibGewicht());
         return "\n Bauklotz: \t\tZylinder \n Radius: \t\t"+radius+"\n Höhe: \t\t\t"
         +hoehe+ "\n Volumen in cm³: \t"+volumenInCm3()+"\n Gewicht: \t\t"+gibGewicht();
     }

@@ -7,7 +7,7 @@
  */
 public abstract class Baukloetze  
 {
-    private double gewicht;
+//     private double gewicht;
     private Object info;
     private final double holz = 0.8;
     /**
@@ -15,17 +15,17 @@ public abstract class Baukloetze
      */
     public Baukloetze()
     {
-        gewicht=0;
+//         gewicht=0;
     }
     
-    /**
-     * Gibt das gewicht zurück 
-     * @return  das Gewicht.
-     */
-    public double gibGewicht()
-    {
-        return gewicht;
-    }
+//     /**
+//      * Gibt das gewicht zurück 
+//      * @return  das Gewicht.
+//      */
+//     public  double gibGewicht()
+//     {
+//         return gewicht;
+//     }
     
     /**
      * Gibt die Info zurück 
@@ -51,7 +51,18 @@ public abstract class Baukloetze
      */
     public String toString()
     {
-        return "blah";
+        return "Bauklotz";
     }
    
+    public abstract double volumenInCm3();
+    
+    /**
+     * Gibt das gewicht
+     * @return das Gewicht
+     */
+    public double gibGewicht()
+    {
+        return volumenInCm3()*gibHolz();    
+    }
+    
 }
